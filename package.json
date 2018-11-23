@@ -1,0 +1,17 @@
+{
+  "name": "geojson2csv-cli",
+  "version": "0.1.0",
+  "description": "Convert GeoJSON files to CSV on the command line.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steve Bennett <me@stevebennett.me> (http://stevebennett.me)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "geojson2dsv": "^0.1.0"
+  }, "files": [ "index.js" ],
+  "bin": {
+    "geojson2csv": "./index.js"
+  }
+}
